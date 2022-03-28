@@ -29,7 +29,10 @@
     </site>
   </distributionManagement>
          
+ 
+
   <build>
+           
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -52,9 +55,7 @@
         </executions>
       </plugin>
     </plugins>
-  </build>
-
-  <build>
+           
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -69,7 +70,7 @@
         <configuration>
           <autoVersionSubmodules>true</autoVersionSubmodules>
         </configuration>
-      </plugin>
+      </plugin>     
 
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
